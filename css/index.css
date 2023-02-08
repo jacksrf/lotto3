@@ -497,6 +497,14 @@ ul.down_business_wrapper.common_alignment .image {
     padding: 40px 5% 40px;
     margin: auto;
 }
+
+.break {
+    margin: 20px 0px;
+}
+
+.break p {
+    margin: 5px 0px 10px;
+}
 .down_business .down_business_wrapper li:hover p {
     transform: translateY(0%);
     opacity: 1;
