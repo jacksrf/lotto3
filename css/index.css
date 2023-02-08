@@ -489,6 +489,14 @@ ul.down_business_wrapper.common_alignment .image {
     overflow: auto;
     position: relative;
 }
+
+.how_to_content {
+    border-radius: 15px;
+    width: 93%;
+    background: #09102C;
+    padding: 40px 5% 40px;
+    margin: auto;
+}
 .down_business .down_business_wrapper li:hover p {
     transform: translateY(0%);
     opacity: 1;
