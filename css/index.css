@@ -492,10 +492,11 @@ ul.down_business_wrapper.common_alignment .image {
 
 .how_to_content {
     border-radius: 15px;
-    width: 93%;
+    width: 100%;
     background: #09102C;
     padding: 40px 5% 40px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .break {
