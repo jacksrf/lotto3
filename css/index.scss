@@ -1,0 +1,805 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-image: url('../images/giflotry.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 9999;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+
+    &:hover {
+        color: unset;
+    }
+}
+
+.main_container {
+    max-width: 1317px;
+    margin: 0 auto;
+
+    @media(max-width:1250px) {
+        width: 95%;
+
+    }
+}
+
+p {
+    @media(max-width:1000px) {
+        font-size: 15px;
+    }
+
+    @media(max-width:700px) {
+        font-size: 18px;
+    }
+
+    @media(max-width:500px) {
+        font-size: 16px;
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media(max-width:1250px) {
+        width: 95%;
+    }
+
+    @media(max-width:700px) {
+        width: 90%;
+    }
+
+
+}
+
+.banner {
+
+    .banner_wrapper {
+        position: relative;
+
+        @media(max-width:500px) {
+            // height: 340px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .text_wrapper {
+            position: absolute;
+            width: 58%;
+            left: 40%;
+            top: 84%;
+            transform: translate(-50%, -70%);
+            z-index: 9999;
+            text-align: left;
+
+            @media(max-width:800px) {
+                width: 65%;
+            }
+
+            @media(max-width:500px){
+                width: 95%;
+            }
+
+            .btn {
+                padding: 15px 25px;
+                background: #f9b626;
+                border: none;
+                font-size: 19px;
+                border-radius: 10px;
+                margin-top: 35px;
+            }
+            button.btn:hover {
+                background: #fff;
+                transition: 0.5s;
+            }
+
+            h2 {
+                // text-shadow: 0 0 3px #FFF000, 0 0 5px #490089;
+                -webkit-text-stroke: 1px #f500cf;
+                color: #FFE01C;
+                font-size: 73px;
+                line-height: 80px;
+                font-weight: 800;
+
+                @media(max-width:1500px) {
+                    font-size: 76px;
+                    line-height: 78px;
+                    font-weight: 800;
+                    letter-spacing: -1px;
+                }
+
+                @media(max-width:900px) {
+                    -webkit-text-stroke: 3px #490089;
+                    font-size: 51px;
+                    line-height: 56px;
+                    letter-spacing: -2px;
+                }
+                @media(max-width:767px){
+                    font-size: 24px;
+                    line-height: 25px;
+                    letter-spacing: -2px;
+                }
+
+                @media(max-width:500px){
+                    font-size: 20px;
+                    line-height: 21px;
+                    letter-spacing: -2px;
+                
+                }
+
+
+            }
+        }
+    }
+}
+
+.jackpot_section {
+    padding: 100px 15px;
+    // background: black;
+
+    @media(max-width:1000px) {
+        padding: 50px 15px;
+    }
+
+    .jackpot_wrapper {
+        display: flex;
+
+        @media(max-width:700px) {
+            flex-wrap: wrap;
+        }
+
+        li {
+            width: calc(100% / 3 - 20px);
+            margin: 20px 10px;
+
+            &:first-child {
+                .jackpot_image {
+                    img {
+                        background: #00144b;
+
+                    }
+
+                }
+            }
+
+            @media(max-width:700px) {
+                width: 100%;
+                margin: 0;
+                margin-bottom: 70px;
+            }
+
+            .jackpot_image {
+                // margin-bottom: 200px;
+                // min-height: 330px;
+                margin-bottom: 30px;
+
+                @media(max-width:1330px) {
+                    // margin-bottom: 140px;
+                    // min-height: 295px;
+                }
+
+                @media(max-width:1250px) {
+                    // margin-bottom: 90px;
+                    // min-height: 260px;
+                }
+
+
+                @media(max-width:1000px) {
+                    // margin-bottom: 90px;
+                    // min-height: 200px;
+                }
+
+                @media(max-width:900px) {
+                    // min-height: 160px;
+                }
+
+                @media(max-width:700px) {
+                    min-height: unset;
+                    margin-bottom: 15px;
+                }
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+
+            .jackpot_content {
+                border-radius: 15px;
+                width: 93%;
+                background: #09102C;
+                padding: 15px 15px 10px;
+                margin: auto;
+
+                @media(max-width:1200px) {
+                    width: 90%;
+                }
+
+                .image {
+                    text-align: center;
+                    margin-top: 30px;
+
+                    img {
+                        @media(max-width:1000px) {
+                            width: 55%;
+                        }
+
+                        @media(max-width:700px) {
+                            width: 45%;
+                        }
+                    }
+                }
+
+                .header_content {
+                    p {
+                        text-align: center;
+                        margin: 15px 0;
+
+                        @media(max-width:1000px) {
+                            font-size: 15px;
+                        }
+
+                        @media(max-width:800px) {
+                            font-size: 13px;
+                        }
+
+                        @media(max-width:700px) {
+                            font-size: 18px;
+                        }
+                    }
+
+                    .currency_content {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            margin-right: 5px;
+                            width: 7%;
+
+                            @media(max-width:1000px) {
+                                width: 15%;
+                            }
+
+                            @media(max-width:700px) {
+                                width: 10%;
+                            }
+                        }
+
+                        h3 {
+                            font-size: 30px;
+                            font-weight: bold;
+                            margin: 15px 0;
+                            margin-left: 15px;
+
+                            @media(max-width:1000px) {
+                                font-size: 24px;
+                            }
+
+                            @media(max-width:700px) {
+                                font-size: 38px;
+                            }
+
+                        }
+                    }
+                }
+
+                .jackpot_alert {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #FFE01C;
+                    color: black;
+                    border-radius: 12px;
+                    padding: 10px 10px;
+                    margin: 20px 0;
+
+                    p {
+                        @media(max-width:700px) {
+                            font-size: 22px;
+                        }
+
+                        @media(max-width:700px) {
+                            font-size: 19px;
+                        }
+                    }
+
+                    span {
+                        margin: 0 20px;
+                        display: inline-block;
+
+                        @media(max-width:1000px) {
+                            margin: 0 7px;
+                        }
+
+                        @media(max-width:700px) {
+                            margin: 0 12px;
+                        }
+                    }
+                }
+
+                .cash_value {
+                    .cash_wrapper {
+                        margin: 15px 0;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .next_withdraw {
+                        background: white;
+                        border-radius: 30px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px 10px;
+                        color: black;
+                        margin: 20px 0;
+
+                        @media(max-width:1000px) {
+                            flex-direction: column;
+                        }
+
+                        @media(max-width:700px) {
+                            flex-direction: row;
+                        }
+                    }
+                }
+
+            }
+
+            .result_for {
+                .result_wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 10px 0;
+                }
+
+                .wallet_address {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 15px 0;
+                    background: #292F47;
+                    padding: 10px 15px;
+                    border-radius: 12px;
+
+                    @media(max-width:1000px) {
+                        flex-direction: column;
+                    }
+
+                    @media(max-width:700px) {
+                        flex-direction: row;
+                        margin: 20px 0;
+                    }
+                }
+
+            }
+
+
+
+        }
+    }
+}
+
+.see_all {
+    background: black;
+    text-transform: capitalize;
+    color: #FFE01C;
+    border: 1px solid #FFE01C;
+    outline: none;
+    padding: 9px 25px;
+    border-radius: 7px;
+
+    @media(max-width:700px) {
+        font-size: 16px;
+    }
+}
+
+.common_wrapper {
+    padding: 65px 0;
+
+    @media(max-width:1000px) {
+        padding: 35px 0;
+    }
+
+    .text_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .common_alignment {
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            width: calc(100% / 2 - 20px);
+            border-radius: 12px;
+
+            @media(max-width:700px) {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            p {
+                margin: 15px 0;
+
+                @media(max-width:500px) {
+                    font-size: 14px;
+                }
+            }
+
+            &:first-child {
+                margin-right: 15px;
+
+                @media(max-width:700px) {
+                    margin-right: 0;
+                }
+            }
+
+            &:nth-child(2) {
+                margin-left: 15px;
+
+                @media(max-width:700px) {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+.latto_community {
+    .lato_content {
+        li {
+            p {
+                @media(max-width:500px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+.buy_mint {
+    .buy_mint_wrapper {
+        margin-top: 40px;
+
+        li {
+            padding: 15px;
+            background: linear-gradient(#FFE01C, #490089);
+            box-sizing: border-box;
+            height: 396px;
+
+            @media(max-width:700px) {
+                margin-bottom: 40px;
+                height: 206px;
+            }
+
+            // &:hover p {
+            //     transform: translateY(0%);
+            //     opacity: 1;
+            // }
+
+            p {
+                transform: translateY(-250%);
+                opacity: 1;
+                transition: 0.6s;
+                padding-left: 20px;
+                font-weight: 700;
+                font-size: 20px;
+
+            }
+        }
+    }
+}
+
+.down_business {
+    .down_business_wrapper {
+        justify-content: space-between;
+
+        li {
+            width: calc(100% / 4 - 15px);
+            padding: 15px;
+            background: linear-gradient(#FFE01C, #202020);
+            box-sizing: border-box;
+            margin: 0;
+            margin-right: 15px;
+            height: 290px;
+
+            @media(max-width:700px) {
+                width: calc(100% / 2 - 15px);
+                margin-right: 0;
+                margin-bottom: 30px;
+                height: 150px !important;
+            }
+
+            &:hover p {
+                transform: translateY(-81%);
+                opacity: 1;
+                transition: 0.6s;
+                left: 0;
+                position: relative;
+                text-align: center;
+                background: #000000ad;
+                vertical-align: middle;
+                padding: 100px 0px;
+                top: -89px;
+            }
+
+            p {
+                transform: translateY(0%);
+                opacity: 0;
+                transition: 0.6s;
+                left:0px ;
+                position: relative;
+                padding: 100px 0px;
+
+
+            }
+
+            &:first-child {
+                margin-right: 15px;
+
+                @media(max-width:700px) {
+                    margin-right: 0;
+                    
+                }
+            }
+
+            &:nth-child(2) {
+                margin-left: unset;
+            }
+
+            &:last-child {
+                margin-right: 0;
+
+                @media(max-width:700px) {
+                    margin-right: 0;
+                    
+                }
+            }
+
+
+
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding: 30px 0;
+
+    .logo_wrapper {
+
+        .image {
+
+            @media(max-width:500px) {
+                width: 20%;
+            }
+
+            img {
+                @media(max-width:500px) {
+                    width: 75%;
+                }
+            }
+        }
+    }
+
+    .image {
+        @media(max-width:500px) {
+            // margin: 5px 0;
+        }
+    }
+
+    p {
+        @media(max-width:500px) {
+            font-size: 11px;
+        }
+    }
+
+    .social_icons {
+        @media(max-width:500px) {
+            width: 25%;
+        }
+
+        a {
+
+            @media(max-width:500px) {
+                margin: 0 !important;
+                text-align: center;
+            }
+
+            img {
+                
+                @media(max-width:500px) {
+                    width: 65% !important;
+                }
+               
+            }
+            img:hover {
+                filter: grayscale(1);
+                transition: 0.5s;
+            }
+        }
+
+    }
+}
+
+header {
+    padding: 30px 0;
+
+    @media(max-width:500px) {
+        padding: 15px 0 30px;
+    }
+
+    .image {
+        @media(max-width:500px) {
+            width: 30% !important;
+        }
+    }
+
+    .social_icons {
+        @media(max-width:500px) {
+            width: 33% !important;
+        }
+
+        a {
+            @media(max-width:500px) {
+                margin: 0 6px !important;
+            }
+        }
+    }
+
+}
+
+.logo_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .image {
+        img {
+
+            @media(max-width:700px) {
+                width: 80%;
+            }
+        }
+    }
+
+    p {
+        span {
+            color: #FFE01C;
+        }
+    }
+
+    .social_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            margin: 0 15px;
+
+            img {
+                @media(max-width:700px) {
+                    width: 80%;
+                }
+            }
+
+            @media(max-width:700px) {
+                margin: 0 8px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+    }
+}
+
+.ball {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: -50px;
+    // transform: translateX(-50%);
+}
+
+.dropdown-content a {
+    color: #FFE01C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    // background-color: #3e8e41;
+}
+
+
+.banner.single-item.slick-initialized.slick-slider {
+    background-image: url('../images/giflotry.gif');
+}
+
+
+
