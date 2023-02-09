@@ -702,6 +702,12 @@ header {
   .logo_wrapper .social_icons a {
     margin: 0 8px;
   }
+
+  .down_business .down_business_wrapper li {
+    width: calc(100% - 0px);
+    margin-right: 0;
+    margin-bottom: 30px;
+}
 }
 .logo_wrapper .social_icons a:last-child {
   margin-right: 0;
