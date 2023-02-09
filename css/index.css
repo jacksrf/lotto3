@@ -539,6 +539,10 @@ ul.down_business_wrapper.common_alignment .image {
     justify-content: center;
 }
 
+.banner_wrapper.slick-slide h2 {
+    text-shadow: 1px 1px 8px white;
+}
+
 .down_business .down_business_wrapper li a {
     position: relative;
     width: 100%;
