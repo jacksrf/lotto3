@@ -121,13 +121,13 @@ ul li {
   width: 100%;
 }
 .banner .banner_wrapper .text_wrapper {
-  position: absolute;
-  width: 58%;
-  left: 40%;
-  top: 60%;
-  transform: translate(-50%, -70%);
-  z-index: 9999;
-  text-align: left;
+    position: absolute;
+    width: 70%;
+    left: 45%;
+    top: 65%;
+    transform: translate(-50%,-70%);
+    z-index: 9999;
+    text-align: left;
 }
 @media (max-width: 800px) {
   .banner .banner_wrapper .text_wrapper {
