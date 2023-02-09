@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+  $('body').addClass('show')
+})
+
 $(document).ready(function () {
     $('.single-item').slick({
         infinite: true,

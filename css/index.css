@@ -10,6 +10,13 @@ body {
   background-size: cover;
   background-position: center;
   z-index: 9999;
+  opacity: 0;
+  transition: all 1000ms;
+  -webkit-transition: all 1000ms;
+}
+
+body.show {
+  opacity: 1;
 }
 
 a {
