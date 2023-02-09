@@ -532,6 +532,12 @@ ul.down_business_wrapper.common_alignment .image {
     width: 100%;
     height: 100%;
 }
+
+.down_business .down_business_wrapper li a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .down_business .down_business_wrapper li:first-child {
   margin-right: 15px;
 }
