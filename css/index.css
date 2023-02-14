@@ -44,13 +44,13 @@ a:hover {
   }
 }
 @media (max-width: 700px) {
-  .background {
+.background {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-position: right!important;
+    background-position: 50% 50%!important;
 }
 
 .background {
