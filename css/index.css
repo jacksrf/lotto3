@@ -488,7 +488,7 @@ ul li {
 }
 
 .down_business .down_business_wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .down_business .down_business_wrapper li {
   width: calc(25% - 15px);
