@@ -341,14 +341,20 @@ ul li {
   justify-content: space-between;
 }
 .jackpot_section .jackpot_wrapper li .jackpot_content .cash_value .next_withdraw {
-  background: white;
-  border-radius: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10px;
-  color: black;
-  margin: 20px 0;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    color: #000;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.next_withdraw h2, .next_withdraw p {
+    width: 100%;
 }
 @media (max-width: 1000px) {
   .jackpot_section .jackpot_wrapper li .jackpot_content .cash_value .next_withdraw {
