@@ -28,9 +28,9 @@ var day = currentDate.getDate();
 var month = currentDate.getMonth() ;
 var year = currentDate.getFullYear();
 
-var countDownDate = new Date("February 28, 2023 02:00:00").getTime();
-var megaDayCount = new Date("April 5, 2023 02:15:00").getTime();
-var skullCount = new Date("April 12, 2023 02:15:00").getTime();
+var countDownDate = new Date("May 10, 2023 02:00:00").getTime();
+var megaDayCount = new Date("June 20, 2023 02:15:00").getTime();
+var skullCount = new Date("June 22, 2023 02:15:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
